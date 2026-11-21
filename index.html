@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102f57">
+  <meta name="description" content="FTSM UKM internship guide for Semester 2, 2026/2027. Search FAQs, follow FITS tutorials, check deadlines and prepare for KLIK.">
+  <title>Internship Hub · FTSM UKM</title>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script defer src="./content.js"></script>
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="menu-overlay" id="menu-overlay" hidden></div>
+  <aside class="sidebar" id="sidebar" aria-label="Main navigation">
+    <a href="#home" class="brand" aria-label="Internship Hub home"><span class="brand-mark">F</span><span><strong>Internship Hub</strong><small>FTSM · UKM</small></span></a>
+    <div class="session-label">Semester 2 <strong>2026/2027</strong></div>
+    <nav id="main-nav"></nav>
+    <div class="sidebar-bottom">
+      <a class="fits-link" href="https://www.ftsm.ukm.my/fits/" target="_blank" rel="noopener">Open FITS</a>
+      <a id="semester1-link" href="../">Semester 1 website</a>
+      <p>Industry &amp; Community<br>Engagement Unit (HEJIM)</p>
+    </div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar">
+      <button type="button" id="menu-toggle" class="icon-button mobile-menu" aria-label="Open navigation" aria-controls="sidebar" aria-expanded="false">☰</button>
+      <div class="topbar-label">Student guide <span id="page-label">Overview</span></div>
+      <div class="profile-controls">
+        <label for="course-select">Course route<select id="course-select" aria-label="Course route"><option value="">All courses</option><option value="4056">TTTT4056 + TTTT4076</option><option value="411a">TTTT411A</option></select></label>
+        <label for="track-select">Placement track<select id="track-select" aria-label="Placement track"><option value="">All tracks</option><option value="industry">Industry Readiness</option><option value="research">Research</option></select></label>
+      </div>
+    </header>
+    <main id="main-content" tabindex="-1"></main>
+    <footer class="site-footer"><span>FTSM UKM · Internship Semester 2, 2026/2027</span><a href="#support">Contact HEJIM</a></footer>
+  </div>
+  <div id="toast" role="status" class="toast" hidden></div>
+  <noscript><p class="no-script">Enable JavaScript to use this interactive guide. Contact <a href="mailto:hejimftsm@ukm.edu.my">HEJIM</a> for assistance.</p></noscript>
+</body>
+</html>
